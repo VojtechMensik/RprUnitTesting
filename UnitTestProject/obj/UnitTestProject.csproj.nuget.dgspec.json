@@ -10,14 +10,14 @@
         "projectUniqueName": "G:\\RPR\\RprUnitTesting\\UnitTestProject\\UnitTestProject.csproj",
         "projectName": "UnitTestProject",
         "projectPath": "G:\\RPR\\RprUnitTesting\\UnitTestProject\\UnitTestProject.csproj",
-        "packagesPath": "C:\\Users\\krivant.05\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\mensikv.03\\.nuget\\packages\\",
         "outputPath": "G:\\RPR\\RprUnitTesting\\UnitTestProject\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\krivant.05\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mensikv.03\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
