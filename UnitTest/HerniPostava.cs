@@ -10,40 +10,35 @@ namespace UnitTest
     {
         private string jmeno;
         public string Jmeno {
-            get
-            {
-                return this.jmeno;
-            }
+            get { return jmeno; }
             set
             {
                 if (value.Length > 10) throw new Exception("NameLength");
                 this.jmeno = value;
             }
         }
+        
+        public int Level { get; protected set; }
+        
+        public double X { get; private set; }
+        public double Y { get; private set; }
 
-        public double X { get; set; }
-        public double Y { get; set; }
-
-        public int level;
-        public HerniPostava(string jmeno)
+        public virtual void ZmenaPozice(double x, double y)
         {
-            this.Jmeno = jmeno;
-            this.level = 1;
+            X = x;
+            Y = y;
         }
-
-        public void ZmenaPozice(double x, double y)
-        {
-            this.X = x;
-            this.Y = y;
-        }
-
         public override string ToString()
         {
-            return String.Format(
-                "Jmeno: {0}\n" +
-                "Level: {1}\n" +
-                "X: {2}, Y: {4}",
-                Jmeno, level, X, Y);
+            return string.Format("Jmeno {0};Level {1};X {2};Y {3}",jmeno,Level,X,Y);
+        }
+
+        public HerniPostava(string jmeno)
+        {
+            Jmeno = jmeno;
+            X = 0;
+            Y = 0;
+            Level = 1;
         }
     }
 }

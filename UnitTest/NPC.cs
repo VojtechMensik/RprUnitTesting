@@ -8,12 +8,12 @@ namespace UnitTest
 {
     public class NPC : HerniPostava
     {
-        public NPC(PopisPrace popisPrace, bool sila) 
+        public NPC(PopisPrace popisPrace, bool sila,string jmeno) : base(jmeno)
         { 
             PopisNPC = popisPrace;
             Sila= sila;
         }
-        public NPC(PopisPrace popisPrace)
+        public NPC(PopisPrace popisPrace, string jmeno) : base(jmeno)
         {
             PopisNPC = popisPrace;
         }
@@ -24,7 +24,7 @@ namespace UnitTest
         /// </summary>
         public bool Sila { get; private set; }
 
-        public override void ZmenaPozice(int x, int y)
+        public override void ZmenaPozice(double x, double y)
         {
             return;
         }

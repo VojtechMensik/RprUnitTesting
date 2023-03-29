@@ -16,5 +16,17 @@ namespace UnitTest
         {
             InitializeComponent();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            Hrac hrac = new Hrac(Hrac.BarvaVlasu.Blond, Hrac.Oblicej.MakeUp, Hrac.Vlasy.Culik, "a", "a");
+            hrac.PridejXP(10);
+            hrac.ZmenaPozice(2, 20);
+
+
+            MessageBox.Show(hrac.ToString());
+            NPC nPC = new NPC(NPC.PopisPrace.nepritel, "a");
+            MessageBox.Show(nPC.ToString());
+        }
     }
 }

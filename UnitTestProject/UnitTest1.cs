@@ -20,6 +20,7 @@ namespace UnitTestProject
         [Test]
         public void MocDloheJmeno()
         {
+            //není kontrola správný exception
             Assert.Throws<Exception>(() =>
             {
                 new HerniPostava("tohlejemocdlouhe");
@@ -38,7 +39,7 @@ namespace UnitTestProject
         [Test]
         public void PocatecniLevel()
         {
-            Assert.IsTrue(new HerniPostava("Luna").level == 1);
+            Assert.IsTrue(new HerniPostava("Luna").Level == 1);
         }
 
         [Test]

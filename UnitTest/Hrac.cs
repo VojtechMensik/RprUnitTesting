@@ -9,9 +9,12 @@ namespace UnitTest
 {
     public class Hrac : HerniPostava
     {
-        public Hrac(BarvaVlasu barvaVlasu, Oblicej oblicej, Vlasy vlasy, string specializace) 
-        { 
-        
+        public Hrac(BarvaVlasu barvaVlasu, Oblicej oblicej, Vlasy vlasy, string specializace,string jmeno) : base (jmeno)
+        {
+            this.barvaVlasu = barvaVlasu;
+            this.oblicej = oblicej;
+            this.vlasy = vlasy;
+            this.specializace = specializace;
         }
         private string specializace;
         public string Specializace

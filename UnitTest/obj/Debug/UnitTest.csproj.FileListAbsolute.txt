@@ -16,3 +16,4 @@ G:\RPR\RprUnitTesting\UnitTest\obj\Debug\UnitTest.csproj.GenerateResource.cache
 G:\RPR\RprUnitTesting\UnitTest\obj\Debug\UnitTest.csproj.CoreCompileInputs.cache
 G:\RPR\RprUnitTesting\UnitTest\obj\Debug\UnitTest.exe
 G:\RPR\RprUnitTesting\UnitTest\obj\Debug\UnitTest.pdb
+G:\RPR\RprUnitTesting\UnitTest\obj\Debug\UnitTest.Form1.resources
